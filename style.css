@@ -1,0 +1,194 @@
+.logo {
+    width: 60vw;
+}
+
+body {
+    background-color: #eee;
+    font-family: Lusitana;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    max-height: 75px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #eee;
+}
+
+#header-img {
+    margin-left: 20px;
+    width: 100%;
+    height: 100%;
+    max-width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 35vw;
+}
+
+li {
+    list-style: none;
+}
+
+nav {
+    font-weight: 400;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    align-items: center;
+}
+
+#hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 200px;
+    margin-top: 25px;
+}
+
+h3 {
+    font-family: Lusitana;
+    font-weight: 400;
+}
+
+.grid {
+    display: flex;
+    padding: 18px;
+}
+
+#made-england-img {
+    margin-top: 8px;
+    width: 70px;
+    border-radius: 5px;
+}
+
+#made-england {
+    margin-left: 74px;
+}
+
+#free-returns-text {
+    margin-left: 50px;
+  
+}
+
+#hermes-logo {
+    margin-top: 19px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px; 
+}
+
+#ethical-img {
+    margin-top: 5px;
+    width: 80px;
+}
+
+#ethical-text {
+    margin-left: 68px;
+}
+
+#how-it-works {
+    padding: 100px 0px 100px 0px;
+}
+
+#pricing {
+    display: flex;
+    margin: 10px;
+}
+
+.price-grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 6px;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.suit-title {
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+    background-color: #ddd;
+    padding: 10px 0px 10px 0px;
+    width: 100%;
+    font-weight: 800;
+}
+
+ol {
+    padding: 15px;
+}
+
+li {
+    margin: 10px 0px 0px 0px;
+}
+
+.btn {
+    margin: 3px;
+    margin-bottom: 10px;
+    width: 100px;
+    background-color: orange;
+    padding: 3px 0px 3px 0px;
+    border: 1px;
+    border-style: solid;
+}
+
+button:hover {
+    background-color: darkorange;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    background-color: #ddd;
+}
+
+#footer-ul {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 15px;
+    margin: 5px;
+}
+
+.footer-li {
+    margin-left: 6px;
+    margin-right: 6px;
+}
+
+span {
+    display: flex;
+    justify-content: flex-start;
+}
+
+@media (max-height: 800px) {
+    p {
+        font-size: 10px;
+    }
+}
